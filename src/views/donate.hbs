@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{{orphanage.name}}</title>
+
+  <link rel="icon" href="/images/logo-icon.png" />
+
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/animations.css" />
+  <link rel="stylesheet" href="/css/sidebar.css" />
+  <link rel="stylesheet" href="/css/buttons.css" />
+  <link rel="stylesheet" href="/css/donate.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="page-donate">
+    <aside class="animate-right">
+      <header>
+        <img src="/images/map-marker.svg" alt="Happy" />
+
+        <h2>Existem várias maneiras em que você pode contribuir!</h2>
+
+        <p>Toda quantia faz a diferença</p>
+      </header>
+
+      <footer>
+        <strong>Fortaleza </strong> 
+        <button class="back" onclick="history.back()">
+          <img src="/images/arrow-back.svg" alt="Voltar" />
+        </button>
+        <p>Ceará</p>
+        
+
+      </footer>
+    </aside>
+
+    <div id="backgroundid" class="animate-appear">
+      <title>Ajude {{orphanage.name}}</title>
+    </div>
+    <div class="donation-details">
+      <img src="{{orphanage.firstImage}}" alt="{{orphanage.name}}" />
+    </div>
+
+  </div>
+  </div>
+  <script src="/scripts/page-donate.js"></script>
+</body>
+
+</html>
